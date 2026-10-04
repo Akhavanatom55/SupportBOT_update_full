@@ -1,0 +1,11 @@
+{
+  "name": "supportbot-bale",
+  "framework": "python",
+  "build_command": "pip install -r python_app/requirements.txt",
+  "start_command": "python python_app/main.py",
+  "env": {
+    "PYTHON_VERSION": "3.11",
+    "BALE_BOT_TOKEN": "",
+    "GEMINI_API_KEY": ""
+  }
+}
